@@ -3,21 +3,82 @@
 <head>
     <meta charset="utf-8">
     <title>Eric Folks: Software Developer</title>
-    <link rel="stylesheet" href="main.css">
-    <script src="main.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+    <script src="main.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous" defer></script>
+    <script src="semantic/dist/semantic.min.js"></script>
 </head>
 <body>
-   <header id="navbar">
-       <div>Home</div>
-       <div>About</div>
-       <div>Projects</div>
-       <div>Resume</div>
-       <div>Contact</div>
+   <header class="ui menu">
+       <h1 id="title" class="left menu">Eric Folks, Software Developer</h1>
+       <div class="right menu">
+           <a class="item" href="https://docs.google.com/document/d/e/2PACX-1vRDVdB7U9YHqZq69Ajv53aTf0QHjgjoFypRXycK0BJvBrSnUyZaAt2flLFiskny-HoNJBBYsDuA5pf5/pub">Resume</a>
+           <a class="item" href="mailto:efolks@live.com?subject=Hi Eric">Contact</a>
+
+       </div>
     </header>
-    <div>Eric Folks</div>
-    <div>Software Developer</div>
+    <div id="home" class="ui grid">
+        <div class="three wide column"></div>
+        <div class="four wide column">
+            <div class="ui big image" id="blue-plaid-headshot">
+                <img src="https://lh3.googleusercontent.com/cPY-pIZC3Y2KZ2wQCDDiMP32uBFTu28JTsKXwHteHe5VjOamsPCM3xoHWN-Q1CNEO77Zq8yGZFXfn193OyWcXPGsshPKqptwKggj75U4NPlfWFEP1d6owkamGEV2siQ7yZQqkhJ7Bd8AT3PjmjwdOT5Li3uRLByPsQWNEPt2byWk1pwkUSkuMbGAvkdf3aCZGgwvm8AZQX7DG4_rIYTHtEUS9JRZEpC3BLK0mAe7GpvhwN4-8IPDwLlCBbhWO7p0fe_v3vDKeaMFDYWW3cYtMxrAh4CNDKY9iTmuGjHcIyaVw-I_5e8eBCqIrxnxjQBs0NSb5KI-K7C6J2axrwIzbTebY2d9dW-Le72VejZ7qePh-sVme1HpCbpxYeNttZqjHWhgFvQF8z1CH3Rx6xCXbqfVkiw4HwEo_5_kdDgCGTGrpZQ9pRbf39xXNqdgAL3-KUGLC5bHUyIrZRxFSvZP6e2yfNiB-6VpfgttkZkC4M6bMFTA8JPFuLrWUHBw8kmDIK01DN0ZS3-0miXiwLCRng4JziV9v_0f626_GlyxN5WkPDMwv6o0ZQzMi2GI8tJ3vEAfAZe4NanjM56Wa5mU887dZXu2qLCF4kWu1dA448a2MsSR0LlQH_MTzU8cl8sSKVnl_LqDZLjDv2ae8JBeQ9Uaf7yoq1M=w2048-h1365-no">
+                <!-- <div class="top-left">
+                    <h2>Eric Folks</h2>
+                    <h4>Software Developer</h4>
+                </div> -->
+            </div>
+        </div>
+        <div class="four wide column">
+            <div class="ui raised very padded text container segment">
+                <h4>Hi! I'm Eric...</h4>
+                <p>
+                    I am a full stack software engineer based in Brooklyn with a focus in Javascript. I am also a trained actor, and after being part of many exciting projects as an artist and producer I knew I wanted to work with amazing collaborators on a much larger scale which led me to pursue programming full time. As a software developer I am passionate about working on dynamic teams to produce creative solutions to complex problems.  
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="ui grid">
+        <div class="centered two wide column">
+            <h1 >Projects</h1>
+        </div>
+    </div>
+    <div class="ui three column grid">
+        <div class="column">
+            <div class="ui fluid card">
+            <div class="image">
+                <img src="/images/avatar/large/daniel.jpg">
+            </div>
+            <div class="content">
+                <a class="header">Six Degrees</a>
+                <p>A mobile movie trivia game where the user attempts to connect one actor to another via their film credits in less than six degrees.</p>
+            </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="ui fluid card">
+            <div class="image">
+                <img src="/images/avatar/large/helen.jpg">
+            </div>
+            <div class="content">
+                <a class="header">Scrapbook Studio</a>
+                <p>An online studio space where users can create a digital scrapbook with text and images.</p>
+            </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="ui fluid card">
+            <div class="image">
+                <img src="/images/avatar/large/elliot.jpg">
+            </div>
+            <div class="content">
+                <a class="header">Graceful Venues</a>
+                <p>A mock-up of an e-commerce site that allows users to rent office, studio, and event space.</p>
+            </div>
+            </div>
+        </div>
+          </div>
     <footer>
-        Goodbye World
     </footer> 
  </body>
  </html>
+
