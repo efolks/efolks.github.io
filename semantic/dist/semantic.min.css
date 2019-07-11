@@ -8,6 +8,15 @@
  * http://opensource.org/licenses/MIT
  *
  */
+#navbar {
+    background-color: #6096BA;
+    height: 100px;
+}
+
+#main {
+    background-color: #E6EFE9;
+}
+
  #home {
     padding: 35px;
  }
@@ -28,10 +37,24 @@
      padding-top: 10px;
      padding-left: 40px;
      padding-bottom: 10px;
+     font-style: italic;
+     font-size: 450%;
+     color: #F3DE8A;
+     text-shadow: -5px 5px grey;
+ }
+
+ #projects-title {
+     font-style: italic;
+     font-size: 300%;
+     font-style: italic;
+     text-shadow: -3px 3px grey;
  }
 
  .item {
-     width: 100px;
+     width: 300px;
+     font-size: 300%;
+     font-style: italic;
+     text-shadow: -3px 3px grey;
  }
 
  #projects {
@@ -41,7 +64,10 @@
  }
 
  .project-link {
-     font-size: 20px;
+     font-size: 30px;
+     font-style: italic;
+     color: #6096BA;
+     text-shadow: -1.25px 1.25px grey;
  }
 
  .project-link-group {
