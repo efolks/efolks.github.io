@@ -37,6 +37,16 @@
  #projects {
      padding-left: 50px;
      padding-right: 50px;
+     padding-bottom: 200px;
+ }
+
+ .project-link {
+     font-size: 20px;
+ }
+
+ .content {
+    display: flex;
+    flex-direction: column;
  }
 
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic&subset=latin);/*!
