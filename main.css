@@ -8,6 +8,7 @@
    display: flex;
    flex-direction: row;
    justify-content: space-between;
+   align-items: center;
 }
 
 #title {
@@ -29,12 +30,14 @@
 
 .navbar-link {
    /* width: 300px; */
-   padding-top: 40px;
+   padding-top: 0px;
    padding-left: 40px;
    padding-bottom: 10px;
    font-size: 300%;
    font-style: italic;
    text-shadow: -3px 3px grey;
+   text-decoration: none;
+   color: #F3DE8A;
 }
 
 
@@ -42,19 +45,31 @@
    display: flex;
    flex-direction: row;
    padding: 35px;
-   justify-content: space-between;
+   justify-content: space-around;
+   align-items: center;
 }
 
 #blue-plaid-headshot {
    width: 700px;
    height: 500px;
+   border-radius: 25px;
+}
+
+#bio {
+    height: 400px;
+    width: 550px;
+    font-size: 25px;
+    border-radius: 25px;
 }
 
 #projects-title {
     font-style: italic;
-    font-size: 300%;
+    font-size: 200%;
     font-style: italic;
     text-shadow: -3px 3px grey;
+    display: flex;
+    justify-content: center;
+    color: #6096BA; 
 }
 
 
@@ -65,16 +80,30 @@
     padding-bottom: 200px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .project-image {
     width: 100%;
 }
 
+#six-degrees-image {
+    height: 40%;
+    width: 80%;
+}
+
+#six-degrees {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .card {
    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
    transition: 0.3s;
    padding: 10px 20px 10px 20px;
+   width: 400px;
  }
 
  .card:hover {
@@ -83,6 +112,9 @@
 
  .container {
    padding: 2px 16px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
  }
 
 .project-link {
