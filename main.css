@@ -15,7 +15,8 @@
    padding-top: 0px;
    padding-left: 20px;
    padding-bottom: 10px;
-   font-style: italic;
+   /* font-style: italic; */
+   font-family: 'Optima';
    font-size: 300%;
    color: #F3DE8A;
    text-shadow: -5px 5px grey;
@@ -34,7 +35,8 @@
    padding-left: 40px;
    padding-bottom: 10px;
    font-size: 300%;
-   font-style: italic;
+   font-family: 'Optima';
+   /* font-style: italic; */
    text-shadow: -3px 3px grey;
    text-decoration: none;
    color: #F3DE8A;
@@ -53,10 +55,11 @@
    align-items: center;
 }
 
-#blue-plaid-headshot {
+#headshot {
    width: 700px;
    height: 500px;
    border-radius: 25px;
+   box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
 }
 
 #bio {
@@ -65,16 +68,13 @@
     font-size: 25px;
     border-radius: 25px;
     background-color:  #F3DE8A;
-}
-
-#bio:hover {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 10px 20px 10px 20px;
 }
 
 #projects-title {
-    font-style: italic;
     font-size: 200%;
-    font-style: italic;
+    /* font-style: italic; */
+    font-family: 'Optima';
     text-shadow: -3px 3px grey;
     display: flex;
     justify-content: center;
@@ -95,6 +95,7 @@
 
 .project-image {
     width: 100%;
+    border-radius: 25px;
 }
 
 #six-degrees-image {
@@ -130,12 +131,14 @@
 
  .header {
      font-size: 200%;
+     font-family: 'Optima';
  }
 
 .project-link {
     padding-top: 10%;
     font-size: 30px;
-    font-style: italic;
+    /* font-style: italic; */
+    font-family: 'Optima';
     color: #F3DE8A;
     text-shadow: -1.25px 1.25px grey;
     text-decoration: none;
