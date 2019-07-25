@@ -91,7 +91,7 @@
     padding-bottom: 200px;
     display: flex;
     flex-direction: row;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
@@ -103,12 +103,11 @@
 
 .flip-card {
     background-color: transparent;
-    width: 25%;
-    height: 100%;
+    width: 350px;
+    height: 500px;
     border: 1px solid #f1f1f1;
     perspective: 1000px;
-    margin: 2%;
-    flex-shrink: 1;
+    margin: 4%;
   }
 
 /* .card {
