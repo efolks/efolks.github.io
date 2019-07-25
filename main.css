@@ -132,6 +132,8 @@
  .header {
      font-size: 200%;
      font-family: 'Optima';
+     /* color: white; */
+     color: whitesmoke;
  }
 
 .project-link {
@@ -139,7 +141,8 @@
     font-size: 30px;
     /* font-style: italic; */
     font-family: 'Optima';
-    color: #F3DE8A;
+    /* color: #F3DE8A; */
+    color: whitesmoke;
     text-shadow: -1.25px 1.25px grey;
     text-decoration: none;
 }
@@ -157,4 +160,6 @@
 .project-description {
     text-indent: 20px;
     font-size: 150%;
+    /* color: #F3DE8A; */
+    color: whitesmoke;
 }
