@@ -85,7 +85,6 @@
 
 
 #projects {
-    height: 500px;
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 200px;
@@ -196,4 +195,9 @@
     font-size: 150%;
     /* color: #F3DE8A; */
     color: whitesmoke;
+}
+
+footer {
+    height: 100px;
+    background-color:  #6096BA;
 }
