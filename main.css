@@ -12,6 +12,8 @@
 }
 
 #title {
+   /* flex: 1 2; */
+   flex-shrink: 20;
    padding-top: 0px;
    padding-left: 20px;
    padding-bottom: 10px;
@@ -23,6 +25,7 @@
 }
 
 #navbar-link-group {
+    /* flex: 1; */
    justify-self: end;
    display: flex;
    flex-direction: row;
