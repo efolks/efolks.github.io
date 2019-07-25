@@ -4,7 +4,7 @@
 
 #navbar {
    background-color: #6096BA;
-   height: 100px;
+   height: 100%;
    display: flex;
    flex-direction: row;
    justify-content: space-between;
@@ -12,20 +12,16 @@
 }
 
 #title {
-   /* flex: 1 2; */
-   flex-shrink: 20;
    padding-top: 0px;
    padding-left: 20px;
    padding-bottom: 10px;
-   /* font-style: italic; */
    font-family: 'Optima';
-   font-size: 300%;
+   font-size: 150%;
    color: #F3DE8A;
    text-shadow: -5px 5px grey;
 }
 
 #navbar-link-group {
-    /* flex: 1; */
    justify-self: end;
    display: flex;
    flex-direction: row;
@@ -33,13 +29,11 @@
 }
 
 .navbar-link {
-   /* width: 300px; */
    padding-top: 0px;
    padding-left: 40px;
    padding-bottom: 10px;
    font-size: 300%;
    font-family: 'Optima';
-   /* font-style: italic; */
    text-shadow: -3px 3px grey;
    text-decoration: none;
    color: #F3DE8A;
@@ -49,29 +43,33 @@
     text-shadow: -7px 7px grey;
 }
 
-
 #about {
    display: flex;
    flex-direction: row;
-   padding: 35px;
+   padding: 2% 2% 2% 2%;
    justify-content: space-around;
    align-items: center;
+   flex-wrap: wrap;
 }
 
 #headshot {
-   width: 700px;
-   height: 500px;
+   /* flex: 1 2; */
+   width: 650px;
+   height: 450px;
    border-radius: 25px;
    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
+   /* padding: 2% 2% 2% 2%; */
 }
 
 #bio {
-    height: 400px;
-    width: 550px;
+    /* flex: 1 1; */
+    height: 300px;
+    width: 600px;
     font-size: 25px;
     border-radius: 25px;
     background-color:  #F3DE8A;
-    padding: 10px 20px 10px 20px;
+    padding: 2% 2% 2% 2%;
+    margin: 2%;
 }
 
 #projects-title {
