@@ -1,46 +1,24 @@
-// const sixDegrees = document.getElementById('six-degrees')
-// const sixDegreesLink = document.getElementById('six-degrees-link')
-// const scrapBookStudio = document.getElementById('scrapbook-studio')
-// const scrapBookStudioGitHubLink = document.getElementById('scrapbook-studio-github-link')
-// const scrapBookStudioSiteLink = document.getElementById('scrapbook-studio-site-link')
-// const gracefulVenues = document.getElementById('graceful-venues')
-// const gracefulVenuesGitHubLink = document.getElementById('graceful-venues-github-link')
-// const gracefulVenuesSiteLink = document.getElementById('graceful-venues-site-link')
+const projects = document.getElementById('projects')
+const sixDegreeFlipCard = document.getElementById('sixdegreeflip')
+const scrapbookFlipCard = document.getElementById('scrapbookflip')
+const gracefulVenuesFlipCard = document.getElementById('gracefulvenuesflip')
 
-// sixDegrees.addEventListener('mouseover', function () {
-//     sixDegreesLink.style.padding = '20px 0px'
-//     sixDegreesLink.innerHTML = 'GitHub Repository'
-// })
+// eslint-disable-next-line complexity
+projects.addEventListener('click', function (event) {
+    if (!event.target.classList.contains('project-link') && event.target.id !== 'projects'){
+        let flipCard;
+        if (event.target.id === 'six-degrees-image' || event.target.classList.contains('six-degrees-back')){
+            flipCard = sixDegreeFlipCard
+        } else if (event.target.id === 'scrapbook-studio-image' || event.target.classList.contains('scrapbook-back')){
+            flipCard = scrapbookFlipCard
+        } else if (event.target.id === 'graceful-venues-image' || event.target.classList.contains('graceful-back')){
+            flipCard = gracefulVenuesFlipCard
+        }
+        if (!flipCard.style.transform) {
+            flipCard.style.transform = 'rotateY(180deg)'
+        } else {
+            flipCard.style.transform = ''
+        }
 
-// sixDegrees.addEventListener('mouseout', function () {
-//     sixDegreesLink.style.padding = '0px'
-//     sixDegreesLink.innerHTML = ''
-// })
-
-// scrapBookStudio.addEventListener('mouseover', function () {
-//     scrapBookStudioGitHubLink.style.padding = '20px 0px'
-//     scrapBookStudioSiteLink.style.padding = '20px 0px'
-//     scrapBookStudioGitHubLink.innerHTML = 'GitHub Repository'
-//     scrapBookStudioSiteLink.innerHTML = 'Visit Site'
-// })
-
-// scrapBookStudio.addEventListener('mouseout', function () {
-//     scrapBookStudioGitHubLink.style.padding = '0px'
-//     scrapBookStudioSiteLink.style.padding = '0px'
-//     scrapBookStudioGitHubLink.innerHTML = ''
-//     scrapBookStudioSiteLink.innerHTML = ''
-// })
-
-// gracefulVenues.addEventListener('mouseover', function () {
-//     gracefulVenuesGitHubLink.style.padding = '20px 0px'
-//     gracefulVenuesSiteLink.style.padding = '20px 0px'
-//     gracefulVenuesGitHubLink.innerHTML = 'GitHub Repository'
-//     gracefulVenuesSiteLink.innerHTML = 'Visit Site'
-// })
-
-// gracefulVenues.addEventListener('mouseout', function () {
-//     gracefulVenuesGitHubLink.style.padding = '0px'
-//     gracefulVenuesSiteLink.style.padding = '0px'
-//     gracefulVenuesGitHubLink.innerHTML = ''
-//     gracefulVenuesSiteLink.innerHTML = ''
-// })
+    }
+})
