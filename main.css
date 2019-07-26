@@ -113,9 +113,9 @@
     border-radius: 25px;
 }
 
-.project-image:hover {
+/* .project-image:hover {
   opacity: 0.9;
-}
+} */
 
 .flip-card {
     background-color: transparent;
