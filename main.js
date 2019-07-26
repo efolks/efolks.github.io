@@ -16,6 +16,7 @@ projects.addEventListener('click', function (event) {
         }
         if (!flipCard.style.transform) {
             flipCard.style.transform = 'rotateY(180deg)'
+            event.target.style.display = 'none'
         } else {
             flipCard.style.transform = ''
         }
