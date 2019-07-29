@@ -135,10 +135,6 @@
     transform-style: preserve-3d;
   }
 
-  .flip-card-inner.flipped {
-    background: transparent;
-  }
-
   .flip-card-front, .flip-card-back {
     position: absolute;
     width: 100%;
