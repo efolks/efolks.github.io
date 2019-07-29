@@ -126,10 +126,6 @@
     border-radius: 25px;
   }
 
-  .flip-card.flipped {
-    background: transparent;
-  }
-
  .flip-card-inner {
     position: relative;
     width: 100%;
@@ -137,6 +133,10 @@
     text-align: center;
     transition: transform 0.8s;
     transform-style: preserve-3d;
+  }
+
+  .flip-card-inner.flipped {
+    background: transparent;
   }
 
   .flip-card-front, .flip-card-back {
