@@ -126,6 +126,10 @@
     border-radius: 25px;
   }
 
+  .flip-card.flipped {
+    background: transparent;
+  }
+
  .flip-card-inner {
     position: relative;
     width: 100%;
