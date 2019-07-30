@@ -149,6 +149,7 @@
     height: 100%;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
+    background: transparent;
   }
 
   .flip-card-front {
