@@ -114,10 +114,7 @@
 }
 
 .project-image:hover {
-  opacity: 0.9;
-  /* border-style: solid;
-  border-color: #F3DE8A;
-  border-width: 8px; */
+  opacity: 0.8;
 }
 
 .flip-card {
