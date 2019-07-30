@@ -16,9 +16,10 @@ projects.addEventListener('click', function (event) {
         }
         if (!flipCard.style.transform) {
             flipCard.style.transform = 'rotateY(180deg)'
-            sixDegreeFlipCard.click()
+            flipCard.style.webkitTransform = 'rotateY(180deg)'
         } else {
-            flipCard.style.removeProperty('transform')
+            flipCard.style.transform = ''
+            flipCard.style.webkitTransform = ''
         }
 
     }
