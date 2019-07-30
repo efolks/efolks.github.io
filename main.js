@@ -2,6 +2,7 @@ const projects = document.getElementById('projects')
 const sixDegreeFlipCard = document.getElementById('sixdegreeflip')
 const scrapbookFlipCard = document.getElementById('scrapbookflip')
 const gracefulVenuesFlipCard = document.getElementById('gracefulvenuesflip')
+const sixDegreeFront = document.getElementById('sixdegreefront')
 
 // eslint-disable-next-line complexity
 projects.addEventListener('click', function (event) {
@@ -16,10 +17,9 @@ projects.addEventListener('click', function (event) {
         }
         if (!flipCard.style.transform) {
             flipCard.style.transform = 'rotateY(180deg)'
-            flipCard.style.webkitTransform = 'rotateY(180deg)'
+            sixDegreeFront.style.backfaceVisibility = 'hidden'
         } else {
             flipCard.style.transform = ''
-            flipCard.style.webkitTransform = ''
         }
 
     }
