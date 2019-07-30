@@ -133,6 +133,7 @@
     text-align: center;
     transition: transform 0.8s;
     transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
   }
 
   .flip-card-front{
